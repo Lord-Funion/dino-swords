@@ -652,8 +652,8 @@ var keyBindings = {
 Object.keys(keyBindings).forEach(function(e) {
     reverseKeyBindings[keyBindings[e]] = e
 });
-var unlockableWeapons = ["rifle", "scream", "bow", "handgun", "flipflop", "chainsaw", "double", "shuriken", "downers", "grenade", "kick", "salute", "hammer", "cig", "holywater", "portal", "uppers", "halberd", "chem", "bat", "flamethrower", "laser", "sword"],
-    weaponStages = [],
+var unlockableWeapons = ["tank", "meteor", "helicopter", "rifle", "scream", "bow", "handgun", "flipflop", "chainsaw", "double", "shuriken", "downers", "grenade", "kick", "salute", "hammer", "cig", "holywater", "portal", "uppers", "halberd", "chem", "bat", "flamethrower", "laser", "sword"],
+    weaponStages = [];
     projectiles = [];
 
 function drawImage(e, t, n, a, i) {
